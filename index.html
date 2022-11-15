@@ -19,10 +19,11 @@
         <div>This is not an actual real online service. Sign up <i>now</i> to get started though!</div>
         <div>You <i>know</i> you want to.</div>
         <form action="example.com/path" method="post" class="form1">
-            <fieldset>
+            <fieldset class="fset">
+        <div style="float:left;margin-right:20px;" class="man">
             <label for="first_name">First Name: </label>
             <input type="text" id="first_name">
-
+        
             <label for="last_name">Last Name: </label>
             <input type="text" id="last_name"> 
 
@@ -37,7 +38,7 @@
 
             <label for="ConfPassword">Confirm Password: </label>
             <input type="password" id="ConfPassword"> 
-
+        </div>
 
         
              </fieldset>
@@ -45,8 +46,15 @@
              <button type="submit">Create Account</button>
         </form>
 
-
+        <div class="temp">
+            <div>Already have an account?  </div>
+            <span>
+                <style> span {color:blue} </style>  Log in!
+            </span>
+        </div>
     </div>
+
+    
     
 </body>
 </html>

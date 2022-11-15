@@ -49,3 +49,34 @@ button[type="submit"]
     max-width: fit-content;
     align-self: center;
 }
+
+.temp
+{
+    display:flex;
+    gap: 5px;
+}
+
+.fset
+{
+    display:flex;
+    flex-wrap: wrap;
+    width:800px;
+    gap:20px;
+}
+
+input, label {
+    display:block;
+}
+
+button[type="submit"]
+{
+    background-color: white;
+    border-style: groove;
+    margin-top:30px;
+}
+
+button[type="submit"]:hover
+{
+    background-color: black;
+    color:white;
+}
